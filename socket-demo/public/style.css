@@ -1,0 +1,43 @@
+h2 {
+    text-align: center;
+}
+
+.chat-container{
+    border: 2px solid black;
+    width: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.chat{
+    /* border: 2px solid red; */
+    height: 480px;
+    overflow-y: auto;
+}
+
+.btns{
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    width: 120px;
+}
+
+.msg{
+    /* border: 2px solid green; */
+    font-size: 1rem;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+}
+
+.receiver{
+    background-color: #AF7595;
+}
+
+.sender{
+    background-color: #52B2CF;
+}
+
